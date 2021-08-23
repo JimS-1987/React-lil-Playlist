@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: rgb(45, 57, 75);
+  background: linear-gradient(90deg, rgb(96, 141, 199) 0%, rgba(4, 20, 52, 1) 100%);
+  min-height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.delBut {
+  border-radius: 10%;
+  margin-left: 1%;
+  color: rgb(255, 0, 0);
+  background-color: rgb(83, 83, 116);
+}
+input {
+  margin-left: 1%;
+  background-color: rgb(236, 234, 234);
+  color: black;
+  font-size: medium;
+}
+
+.songItem {
+  display: inline-flex;
+  margin: 2px;
+  color: azure;
+  list-style: none;
+  padding-left: 10px;
+  font-size: x-large;
+}
+
+.list {
+  background-color: #61dafb;
+  background: linear-gradient(90deg, rgb(151, 91, 91) 0%, rgba(4, 20, 52, 1) 100%);
+}
+#Genre {
+  margin-left: 5px;
+  background-color: rgb(236, 234, 234);
+}
+#Rating {
+  margin-left: 5px;
+  background-color: rgb(236, 234, 234);
+}
+label {
+  color: azure;
+}
+.addBtn {
+  margin-left: 1%;
+  background-color: rgb(83, 83, 116);
+  color: rgb(131, 221, 131);
+}
+ul {
+  list-style: none;
+}
